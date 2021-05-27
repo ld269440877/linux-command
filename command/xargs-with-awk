@@ -1,0 +1,3 @@
+➜  dir.xxxxxx git:(master) ✗ echo "nameXnameXnameXname" | awk '{gsub("X", "\0", $0);print $0}'|xargs -0 -n2
+name name
+name name
